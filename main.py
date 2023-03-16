@@ -10,7 +10,9 @@ sg.theme('Tan')
 # All the stuff inside your window.
 layout = [  [sg.Text('')],
             [sg.Multiline(size=(200, 40), key='textbox')],
-            [sg.Button('Count'), sg.Button('Delete all'), sg.Button('Close Window'), sg.Text('Keystrokes: '), sg.Text('',key = 'result')]]  # identify the multiline via key option
+            [sg.Button('Count'), sg.Button('Delete all'), 
+             sg.Button('Close Window'), sg.Text('Keystrokes: '), 
+             sg.Text('',key = 'result')]]  
 
 
 window = sg.Window('Keystrokecounter_GER', layout).Finalize()
