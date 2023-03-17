@@ -6,7 +6,10 @@ DISCLAIMER:
 Use this at your own risk.
 
 
-Tool to analyze a text to count all keystrokes done on a german keyboard layout to create the text.  
+![image](https://user-images.githubusercontent.com/35074321/225778053-e70b73cd-4579-4417-a0ce-4125e7c69c68.png)
+
+
+Since IT classes in Germany count keystrokes to score a keyboard typing test and not letters, I was asked to write that script.
 
 eG. 'A' is two key strokes since you have to push 'shift' + 'a'.  
 
